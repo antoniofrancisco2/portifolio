@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+div#imagem{
+    background: url(../image/avatarlog.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+    padding-bottom: 10px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    padding: 2px;
+} 
+
+div#prox > p.entrar > a {
+    background-color: #F5FF00;
+    color: black;
+    text-decoration: none;
+    border-radius: 23px;
+    padding: 1rem 4rem;   
+}
+
+div#prox {
+    margin: 35px;
+}
+
+div.social{
+    margin-top: 1rem;
+    
+}
+div.social a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 4rem;
+    margin-left: 39%;
+    margin-right: 39%;
+    border-radius: 23px;
+    border: 1PX solid #F5FF00;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
