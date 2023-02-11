@@ -51,11 +51,11 @@ div.social a{
     text-decoration: none;
     color: white;
     padding: 1rem 4rem;
-    margin-left: 39%;
-    margin-right: 39%;
+    margin: auto;
+    left: 39%;
+    width: 25%;
     border-radius: 23px;
     border: 1PX solid #F5FF00;
-    min-width: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
