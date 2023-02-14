@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    text-align: center;
+    color: white;
+}
+
+.und1 { color: #ffbb00;
+    font-size: 40px;
+}
+
+.und2 {
+    font-size: 20px;
+}
+
+main {
+    margin-top: 70px;
+}
+
+.sociais {
+    text-align: center;
+    border: 1px solid  #F5FF00;
+    padding: 15px;
+    margin: auto;
+    width: 115px;
+}
+
+.sociais a {
+    text-decoration: none;
+    color: white;
+}
