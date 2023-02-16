@@ -10,7 +10,11 @@ body {
     background-color: black;
 }
 
-section {
+#conteudo1 {
+    margin: 227px;
+}
+
+#cabecalho {
     text-align: center;
     color: white;
 }
@@ -30,12 +34,48 @@ main {
 .sociais {
     text-align: center;
     border: 1px solid  #F5FF00;
+    box-shadow: 1px 1px 4px 1px #F5FF00;
     padding: 15px;
     margin: auto;
-    width: 115px;
+    width: 128px;
 }
 
 .sociais a {
     text-decoration: none;
     color: white;
+}
+
+#sobre {
+    color: white;
+    margin: 30px;
+    text-align: center;
+
+} 
+
+#sobre > div > h1{
+    color: #ffbb00;
+}
+
+#sobre p {
+    padding: 2px;
+}
+
+#sobre a {
+    text-decoration: none;
+    color: white;
+}
+
+#p1{
+    margin: 6px;
+    text-align: justify;
+}
+
+#p2{
+    margin: 6px;
+    text-align: justify;
+}
+
+#p3{
+    margin: 6px;
+    text-align: justify; 
 }
