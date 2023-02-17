@@ -11,7 +11,9 @@ body {
 }
 
 #conteudo1 {
-    margin: 227px;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    margin: auto;
 }
 
 #cabecalho {
