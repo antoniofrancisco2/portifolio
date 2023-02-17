@@ -58,26 +58,19 @@ main {
     color: #ffbb00;
 }
 
-#sobre p {
-    padding: 2px;
+#conteudo2{
+    background: url(../image/undraw_dev_productivity_umsq.svg) no-repeat;
+    background-size: 350px;
+    height: 299px;
+    min-height: 667px;
+    display: block;
+}
+    
+.h1 {
+    text-align: center;
+    margin: 15px;
 }
 
-#sobre a {
-    text-decoration: none;
-    color: white;
-}
-
-#p1{
-    margin: 6px;
+.p1{
     text-align: justify;
-}
-
-#p2{
-    margin: 6px;
-    text-align: justify;
-}
-
-#p3{
-    margin: 6px;
-    text-align: justify; 
 }
