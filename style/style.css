@@ -54,23 +54,25 @@ main {
 
 } 
 
-#sobre > div > h1{
+#mdf{
     color: #ffbb00;
 }
 
-#conteudo2{
-    background: url(../image/undraw_dev_productivity_umsq.svg) no-repeat;
-    background-size: 350px;
-    height: 299px;
-    min-height: 667px;
-    display: block;
+#draw1{
+    margin-bottom: 10px;
+    min-width: 320px;
+    max-width: 1024px;
+    float: left;
+    width: 30%;    
 }
     
 .h1 {
-    text-align: center;
-    margin: 15px;
+    text-align: justify;
 }
 
 .p1{
+    margin-bottom: 20px;
     text-align: justify;
+    float: left;
+    width: 420px;
 }
