@@ -1,5 +1,12 @@
 @charset "UTF-8";
-
+/*
+PALETAS DE CORES
+#00010D
+#585859
+#8C8C8C
+#F2F2F2
+#BFBFBF
+*/
 *{
     margin: 0;
     padding: 0;
@@ -7,72 +14,51 @@
 }
 
 body {
-    background-color: black;
+    background-color: #00010D;
 }
-
-#conteudo1 {
-    padding-top: 100px;
-    padding-bottom: 300px;
-    margin: auto;
-}
-
-#cabecalho {
+/*APRESENTACAO*/
+#apre {
+    color: #F2F2F2;
     text-align: center;
-    color: white;
+    margin: 47px;
+    font-size: 22px;
 }
 
-.und1 { color: #ffbb00;
-    font-size: 40px;
-}
-
-.und2 {
-    font-size: 20px;
-}
-
-main {
-    margin-top: 70px;
+#apre h1 {
+    color: #9e9c9ce0;
 }
 
 .sociais {
-    text-align: center;
-    border: 1px solid  #F5FF00;
-    box-shadow: 1px 1px 4px 1px #F5FF00;
-    padding: 15px;
-    margin: auto;
-    width: 128px;
+    display: inline-block;
+    margin: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px #BFBFBF solid;
+    box-shadow: 0px -1px 4px #868686;
 }
 
 .sociais a {
+    padding: 5px;
     text-decoration: none;
-    color: white;
+    color: #F2F2F2;
 }
 
+/*SOBRE MIM*/
 #sobre {
-    color: white;
-    margin: 30px;
+    color: #F2F2F2;
+    margin: 10px;
+}
+
+#sobre p {
+    text-align: justify;
+}
+
+/*RODA PÉ*/
+#rodape {
+    padding: 17px;
     text-align: center;
-
-} 
-
-#mdf{
-    color: #ffbb00;
+    background-color: #585859;
+    color: #F2F2F2;
 }
 
-#draw1{
-    margin-bottom: 10px;
-    min-width: 320px;
-    max-width: 1024px;
-    float: left;
-    width: 30%;    
-}
-    
-.h1 {
-    text-align: justify;
-}
-
-.p1{
-    margin-bottom: 20px;
-    text-align: justify;
-    float: left;
-    width: 420px;
-}
