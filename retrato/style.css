@@ -1,10 +1,11 @@
 @charset "UTF-8";
 
 #sobre p {
-    margin: auto;
+    display: block;
     text-align: justify;
 }
 
 #img {
+    max-width: 375px;
     display: none;
 }
