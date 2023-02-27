@@ -20,8 +20,8 @@ body {
 #apre {
     color: #F2F2F2;
     text-align: center;
-    margin: 47px;
     font-size: 22px;
+    margin: 12%;
 }
 
 #apre h1 {
@@ -45,14 +45,46 @@ body {
 }
 
 /*SOBRE MIM*/
-#sobre {
+#sobrem {
+    margin: 20px;
+}
+
+#sobrem h1 {
+    text-align: center;
+    padding: 10px;
     color: #F2F2F2;
-    margin: 10px;
+}
+
+#sobre {
+    display: flex;
+    color: #F2F2F2;
+    padding-left: 10%;
+}
+
+#sobre img {
+    height: 270px;
+}
+
+#img {
 }
 
 #sobre p {
+    max-width: 38%;
+    min-width: 320px;
+    text-align: center;
     text-align: justify;
 }
+
+/*PROJETOS
+projt {
+    margin: 30px;
+}
+
+projt h1 {
+    text-align: center;
+    color: #F2F2F2;
+}
+*/
 
 /*RODA PÉ*/
 #rodape {
