@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
+#sobre {
+    
+}
+
 #sobre p {
-    margin: 5px;
-    display: block;
+    width: auto;
+    text-align: center;
     text-align: justify;
+    
 }
 
 #img {

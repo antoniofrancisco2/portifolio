@@ -66,8 +66,7 @@ body {
 }
 
 #sobre p {
-    max-width: 37%;
-    min-width: 319px;
+    width: 50%;
     text-align: center;
     text-align: justify;
 }
