@@ -5,10 +5,7 @@
 }
 
 #sobre p {
-    width: 79%;
-    text-align: center;
-    text-align: justify;
-    
+    margin-left: -33px;
 }
 
 #img {
