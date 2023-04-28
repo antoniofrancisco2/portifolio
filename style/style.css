@@ -30,10 +30,10 @@ body {
 
 .sociais {
     display: inline-block;
-    margin: 15px;
+    margin: 10px;
     margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 5px;
+    width: 100px;
+    padding: 8px;
     border: 1px #BFBFBF solid;
     box-shadow: 0px -1px 4px #868686;
 }
@@ -63,12 +63,13 @@ body {
 
 #sobre img {
     height: 270px;
+    margin-left: -50px;
 }
 
 #sobre p {
-    width: 85vh;
-    text-align: center;
+    font-weight: bold;
     text-align: justify;
+    font-size: 1.1em;
 }
 
 /*PROJETOS
