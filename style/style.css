@@ -13,19 +13,24 @@ PALETAS DE CORES
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    background-color: #00010D;
+main {
+    background-color: #030731;
 }
 /*APRESENTACAO*/
+section#apre {
+    background-image: linear-gradient(to bottom, #00010D, #030731);
+}
+
 #apre {
     color: #F2F2F2;
     text-align: center;
     font-size: 22px;
-    margin: 12%;
+    height: 400px;
+    padding-top: 25vw;
 }
 
 #apre h1 {
-    color: #9e9c9ce0;
+    color: #ebe9e9e0;
 }
 
 .sociais {
@@ -45,8 +50,13 @@ body {
 }
 
 /*SOBRE MIM*/
+section#sobrem {
+    background-color: #030731;
+    padding-bottom: 100px;
+}
+
 #sobrem {
-    margin: 20px;
+    padding-top: 50px;
 }
 
 #sobrem h1 {
@@ -72,16 +82,21 @@ body {
     font-size: 1.1em;
 }
 
-/*PROJETOS
-projt {
-    margin: 30px;
-}
+/*PROJETO*/
 
-projt h1 {
+#projt h1 {
     text-align: center;
     color: #F2F2F2;
+    margin: 100px;
 }
-*/
+
+article#projetos {
+    display: inline-block;
+    border: 1px solid white;
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+}
 
 /*RODA PÉ*/
 #rodape {
