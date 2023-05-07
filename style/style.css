@@ -84,14 +84,18 @@ section#sobrem {
 
 /*PROJETO*/
 
-#projt h1 {
+h1#pjt {
     text-align: center;
     color: #F2F2F2;
-    margin: 100px;
+    margin: 60px;
+}
+
+section#projt {
+    display: flex;
+    justify-content: center;
 }
 
 article#projetos {
-    display: inline-block;
     border: 1px solid white;
     margin: 30px;
     width: 300px;
