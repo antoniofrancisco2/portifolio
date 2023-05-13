@@ -83,11 +83,10 @@ section#sobrem {
 }
 
 /*PROJETO*/
-
-h1#pjt {
+section#container h1 {
+    color: white;
     text-align: center;
-    color: #F2F2F2;
-    margin: 60px;
+    padding: 20px;
 }
 
 section#projt {
@@ -97,11 +96,18 @@ section#projt {
 
 article#projetos {
     border: 1px solid white;
-    margin: 30px;
-    width: 300px;
-    height: 22vw;
+    height: 200px;
+    width: 260px;
+    margin: 20px;
 }
+/**
+article#projetos{
 
+    height: 550px;
+    max-width: 230%;
+    max-height: 130%;
+}
+**/
 /*RODA PÉ*/
 #rodape {
     padding: 17px;
