@@ -25,15 +25,16 @@ section#apre {
     background-image: linear-gradient(to bottom, #00010D, #030731);
 }
 
-#apre {
+section#apre {
     color: #F2F2F2;
     text-align: center;
     font-size: 22px;
     height: 400px;
-    padding-top: 25vw;
+    padding-top: 15vw;
+    margin-bottom: 110px;
 }
 
-#apre h1 {
+section#apre h1 {
     color: #ebe9e9e0;
 }
 
