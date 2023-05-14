@@ -13,6 +13,10 @@ PALETAS DE CORES
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: #030731;
+}
+
 main {
     background-color: #030731;
 }
@@ -83,6 +87,10 @@ section#sobrem {
 }
 
 /*PROJETO*/
+section#container {
+    margin-bottom: 40px;
+}
+
 section#container h1 {
     color: white;
     text-align: center;
@@ -95,19 +103,23 @@ section#projt {
 }
 
 article#projetos {
-    border: 1px solid white;
-    height: 200px;
+    
     width: 260px;
-    margin: 20px;
+    margin: 10px;
 }
-/**
-article#projetos{
 
-    height: 550px;
-    max-width: 230%;
-    max-height: 130%;
+article#projetos img{
+    max-width: 115%;
+    max-height: 115%;
 }
-**/
+
+article#projetos p {
+    padding-left: 20px;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
 /*RODA PÉ*/
 #rodape {
     padding: 17px;
