@@ -27,28 +27,46 @@ section#apre {
 
 section#apre {
     color: #F2F2F2;
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 22px;
-    height: 400px;
-    padding-top: 15vw;
+    height: 100vh;
+    align-items: center;
+    /*padding-top: 15vw;
     margin-bottom: 110px;
+    padding-top: 15vw;
+    margin-bottom: 110px;*/
+}
+
+div#press {
+    display: block;
 }
 
 section#apre h1 {
     color: #ebe9e9e0;
 }
 
-.sociais {
-    display: inline-block;
-    margin: 10px;
-    margin-top: 20px;
-    width: 100px;
-    padding: 8px;
-    border: 1px #BFBFBF solid;
-    box-shadow: 0px -1px 4px #868686;
+div.sociais {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 
-.sociais a {
+@media screen and (min-width: 992px) {
+    div.sociais {
+        display: inline-block;
+    }
+
+    div.sociais > a.soci {
+        padding: 10px;
+    }
+}
+
+div.sociais a {
+    border: 1px solid #BFBFBF;
+    height: 30px;
+    width: 120px;
     padding: 5px;
     text-decoration: none;
     color: #F2F2F2;
