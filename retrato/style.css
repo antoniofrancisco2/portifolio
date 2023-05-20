@@ -27,3 +27,7 @@ article#projetos {
     margin: 10px;
     height: 165px;
 }
+
+iframe {
+    width: 330px;
+}
