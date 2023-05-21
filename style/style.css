@@ -75,11 +75,7 @@ div.sociais a {
 /*SOBRE MIM*/
 section#sobrem {
     background-color: #030731;
-    padding-bottom: 100px;
-}
-
-#sobrem {
-    padding-top: 50px;
+    height: 100vh;
 }
 
 #sobrem h1 {
@@ -107,7 +103,8 @@ section#sobrem {
 
 /*PROJETO*/
 section#container {
-    margin-bottom: 40px;
+    background-image: linear-gradient(to bottom, #030731, #070d52);
+    height: 100vh;
 }
 
 section#container h1 {
@@ -152,7 +149,7 @@ ABILIDADES
 */
 
 section#abb {
-    background-color: #01074b;
+    background-image: linear-gradient(to bottom, #070d52, #0b1055);
 }
 
 section#abb > h2{
