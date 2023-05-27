@@ -144,6 +144,10 @@ article.projetos p {
     padding-top: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*
 ABILIDADES
 */
