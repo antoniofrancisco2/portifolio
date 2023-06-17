@@ -286,6 +286,12 @@ section#abb {
     height: 100vh;
 }
 
+section#abb h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
 section#abili {
     display: flex;
     justify-content: center;
