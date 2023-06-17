@@ -32,3 +32,11 @@ iframe {
     width: 330px;
 }
 
+section#abili {
+    display: grid;
+    justify-content: center;
+}
+
+article.abilidade {
+    height: 267px;
+}
