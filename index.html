@@ -6,10 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css" media="all">
     <link rel="stylesheet" href="retrato/style.css" media="screen and (orientation: portrait">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Portifolio</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <main>
+        <nav>
+            <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+            <ul id="itens">
+                <span class="material-icons" style="font-size: 3em; padding: 20px;">code</span>
+                <li><a href="#apre">Home</a></li>
+                <li><a href="#sobrem">Sobre Mim</a></li>
+                <li><a href="#container">Projetos</a></li>
+                <li><a href="#abb">Abilidades</a></li>
+            </ul>
+        </nav>
         <!--APRESENTACAO-->
         <section id="apre">
             <div id="conte">
@@ -88,5 +99,23 @@
     <footer id="rodape">
         <p>Copyright Antônio Francisco Todos os direitos reservados.</p>
     </footer>
+
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'flex'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display =='block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

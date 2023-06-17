@@ -13,12 +13,72 @@ PALETAS DE CORES
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #030731;
 }
 
 main {
     background-color: #030731;
+}
+
+nav {
+    background-color: rgba(128, 128, 128, 0.356);
+    width: 100%;
+    position: fixed;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    nav > span#burguer {
+        display: none;
+    }
+
+    nav > ul > li > a {
+        display: flex;
+    }
+}
+
+span#burguer {
+    color: white;
+    display: block;
+    text-align: left;
+    font-size: 2em;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    background-color: rgba(37, 36, 36, 0.411);
+    color: black;
+}
+
+ul span {
+    color: red;
+}
+
+nav a {
+    color: white;
+    font-size: 1.3em;
+    padding: 18px;
+}
+
+nav > ul > li > a {
+    display: block;
+    padding: 10px;
+    padding-left: 30px;
+    text-decoration: none;
+    text-align: left;
+    color: white;
 }
 /*APRESENTACAO*/
 section#apre {
